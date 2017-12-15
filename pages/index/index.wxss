@@ -1,0 +1,61 @@
+/**index.wxss**/
+@import "../common.wxss";
+
+.p-title {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  text-align: left;
+  font-size: 13px;
+  color: #222;
+}
+
+.icon-tuijian {
+  background-image: url('http://ol1rnobmr.bkt.clouddn.com/spirit.png');
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0px;
+  right: 10px;
+  display: inline-block;
+  width: 30px;
+  height: 18px;
+  background-position: -65px 0;
+}
+.view-item
+{
+  float: left;
+  position: relative;
+  width:140px;
+  border:1px solid #dcdcdc;
+  margin-bottom: 10px;
+}
+.view-item image{
+  height: 140px;
+  width: 140px;
+}
+
+.item-tips
+{
+  padding-left: 10px;
+  display: block;
+  text-align:left;
+  font-size: 12px;
+  color: #666;
+}
+.item-tips-money
+{
+    font-weight: 400;
+    font-family: Verdana;
+    color:#f91546;
+    font-size: 14px;
+}
+.view-container
+{
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 40px;
+  padding: 0px 15px;
+}
+.swiper-item{
+  text-align:center;
+}

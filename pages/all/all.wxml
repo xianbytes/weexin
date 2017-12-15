@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="btn-area">
+    <navigator url="../index/index" hover-class="navigator-hover">首页</navigator>
+    <navigator url="../all/all" hover-class="navigator-hover" class="navigator-active">全部商品 </navigator>
+    <navigator url="../my/my" class="none-border" hover-class="navigator-hover">我的</navigator>
+  </view>
+</view>

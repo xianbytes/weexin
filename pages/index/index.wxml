@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+  <block>
+    <text class="p-title">{{text1}}</text>
+    <icon class="icon-tuijian"></icon>
+  </block>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <block>
+    <text class="p-title">{{text2}}</text>
+  </block>
+  <view class="view-container">
+    <view class="view-item" wx:for="{{newPd}}" wx:key="{{index}}" style="float:{{index%2==0?'left':'right'}}">
+      <image src="{{item.image}}"></image>
+      <view class="shine">
+        <text class="item-tips item-tips-money">￥{{item.money}}</text>
+        <text class="item-tips">{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="btn-area">
+    <navigator url="../index/index" hover-class="navigator-hover" class="navigator-active">首页</navigator>
+    <navigator url="../all/all" hover-class="navigator-hover">全部商品 </navigator>
+    <navigator url="../my/my" class="none-border" hover-class="navigator-hover">我的</navigator>
+    <!-- <navigator wx:for="{{menu}}" wx:for-item="Tags" wx:key="{{index}}" >{{Tags}}</navigator> -->
+  </view>
+</view>

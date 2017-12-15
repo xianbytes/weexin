@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/all/all",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f91546",
+    "navigationBarTitleText": "鞋家",
+    "navigationBarTextStyle": "鞋家"
+  }
+}

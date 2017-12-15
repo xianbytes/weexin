@@ -1,0 +1,37 @@
+.btn-area{
+  position: fixed;
+  bottom:0px;
+  background:#fff;
+  width: 100%;
+  border:1px solid #dcdcdc;
+  z-index: 1000;
+}
+navigator{
+  position: relative;
+ display:inline-block;
+width:33.3%;
+text-align:center;
+line-height:40px;
+font-size: 12px;
+}
+navigator:after{
+  top:4px;
+  content:"";
+  height: 32px;
+  border-right: 1px solid #f91546;
+  position: absolute;
+  right: 0px;
+}
+.none-border:after{
+  border-right: 1px solid transparent;
+}
+.navigator-hover
+{
+  border-bottom:1px solid #f91546;
+  color:#f91546;
+}
+.navigator-active
+{
+  border-bottom:1px solid #f91546;
+  color:#f91546;
+}
